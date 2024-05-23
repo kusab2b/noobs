@@ -1,0 +1,58 @@
+body{
+    background-color: #1f314f;
+height:100vh;
+display: flex;
+
+}
+.optimal{
+    width: 320px;
+    height: 497px;
+    border: 1px solid;
+    border-radius: 20px;
+    margin: auto;
+    background-color: #ffffff;
+    
+}
+.oval{
+    width: 288px;
+    height: 288px;
+    border: 1px solid;
+    margin:  auto;
+    border-radius: 10px;
+    background-color: #1f314f;
+    border: none;
+    
+
+    
+}
+.qr {
+   margin: auto;
+display: flex;
+}
+
+.front{
+    
+    text-shadow:1px 1px;
+    font-size: 1.4rem;
+text-align: center;
+    
+}
+.text{
+    color: gray;
+    text-align: center;
+    
+}
+
+@media screen and (max-width:768px){
+    .optimal{
+        width: 360px;
+        height: 497px;
+        margin-top: 85px ;
+        
+    }
+    .oval{
+        width: 288px;
+        height: 288px;
+        margin-left: 35px;
+    }
+}
